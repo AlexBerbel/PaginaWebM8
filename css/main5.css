@@ -1,0 +1,56 @@
+p{
+  text-align: center;
+  color:red;
+}
+h1{
+  text-align: center;
+  color:silver;
+  font-family: 'Merienda', cursive;
+}
+h2{
+  text-align: center;
+  color:black;
+  font-family: 'Cookie', cursive;
+}
+body{
+    background-image: url("../img/fondos-de-pantalla-gratis-para-pc.jpg");
+    background-repeat: no-repeat;
+    background-size: 180% 180%;
+  }
+#container{
+display: grid;
+grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+grid-template-rows: 10vh 10vh 10vh 40vh 10vh 10vh 10vh;
+grid-column: 10px;
+grid-row: 10px;
+}
+
+#container .celda1{
+  grid-row: 2/3;
+  grid-column: 2/6 ;
+}
+
+#container .celda2{
+  grid-row: 4/5 ;
+  grid-column: 2/3 ;
+}
+
+#container .celda3{
+  grid-row: 4/5 ;
+  grid-column: 3/4 ;
+}
+
+#container .celda4{
+  grid-row: 4/5 ;
+  grid-column: 4/5 ;
+}
+
+#container .celda5{
+  grid-row: 4/5 ;
+  grid-column: 5/6 ;
+}
+
+#container .celda6{
+  grid-row: 6/7 ;
+  grid-column: 2/6 ;
+}
